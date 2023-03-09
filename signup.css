@@ -1,0 +1,108 @@
+:root{
+    --yellow:#ffffff;
+    --light-yellow:#14e03ac4;
+    --black:#161416a2;
+    --light-color:#666;
+    --box-shadow: .5rem 1rem rgba(0,0,0,.1);
+    --border:.2rem solid rgba(0, 0, 0, 0.1);
+}
+
+.header .logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top:0; left:0; right:0;
+    padding:2rem 9%;
+    background: #fff;
+}
+
+.header .logo{
+    font-size: 1.5rem;
+    color:var(--black);
+    font-weight: bold;
+}
+
+.header .logo span{
+    color:var(--light-yellow);
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+*{
+ 	margin: 0;
+ 	padding: 0;
+ 	box-sizing: border-box;
+ 	outline: none;
+ 	list-style: none;
+ 	text-decoration: none;
+ 	font-family: 'Roboto', sans-serif;
+}
+
+body{
+ 	background: #bceee2;
+ 	font-size: 14px;
+}
+ 
+.wrapper .header{
+	max-width: 350px;
+	width: 100%;
+	height: auto;
+	margin: 125px auto;
+}
+
+.wrapper .header .top,
+.wrapper .header .signup{
+	background: #fff;
+	border: 1px solid #e6e6e6;
+	border-radius: 1px;
+	padding: 40px 40px 20px;
+}	
+
+.wrapper .header .form .input_field{
+	margin-bottom: 13px;
+}
+
+.wrapper .header .form .input_field .input{
+	width: 100%;
+ 	background: #fafafa;
+ 	border: 1px solid #efefef;
+ 	font-size: 13px;
+ 	border-radius: 3px;
+ 	color: #262626;
+ 	padding: 12px;
+}
+
+.wrapper .header .form .input_field .input:focus{
+	border: 1px solid #b2b2b2;
+}
+
+.wrapper .header .form .btn{
+ 	margin: 15px 0;
+ 	background:#14e03ac4;
+ 	border: 1px solid #14e03ac4;
+ 	border-radius: 4px;
+ 	text-align: center;
+ 	padding: 7px;
+}
+
+.wrapper .header .form .btn a{
+	color: #fff;
+ 	display: block;
+}
+
+
+.wrapper .header .signup{
+
+	margin: 15px 0 10px;
+	padding: 25px 40px;
+	text-align: center;
+	font-size: 16px;
+	color: #262626;
+}
+.wrapper .header .signup a{
+	color: #14e03ac4;
+}
+
+
+
+
